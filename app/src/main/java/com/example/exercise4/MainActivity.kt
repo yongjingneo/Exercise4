@@ -39,6 +39,13 @@ class MainActivity : AppCompatActivity() {
 
         }
 
+        btnReset.setOnClickListener(){
+            txtDOB.setText("Select")
+            txtAge.setText("")
+            txtMin.setText("")
+            txtInvest.setText("")
+        }
+
     }
 
     fun getBasicSaving():Double{
